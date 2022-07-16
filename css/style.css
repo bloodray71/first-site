@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@1&family=Roboto:wght@100&display=swap');
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Geo', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+.conteiner {
+    max-width: 1300px;
+    margin: 0 auto;
+    max-height: 900px;
+}
+
+.section {
+    width: 900px;
+}
+/*heder*/
+.heder {
+}
+.heder-wrapper {
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    justify-items: center;
+    height: 220px;
+    width: 100%;
+}
+.nav {
+    margin: 0 auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.na-link:first{
+    padding-left: 0;
+}
+.nav-link:hover {
+    transition-delay: 0,5s;
+    color: #D3C3AD;
+}
+/*end heder*/
+/*intro*/
+.intro {
+    background:url(intro-bg.png);
+}
+
+.intro-conteiner {
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    height: 810px;
+}
+
+.intro-title {
+    font-family: 'Geo';
+    font-style: italic;
+    font-weight: 500;
+    width: 540px;
+    height: 165px;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.intro-title-two {
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 22px;
+    width: 550px;
+    height: 115px;
+}
+
+.intro-foto {
+    padding-top: 100px;
+    margin-left: 200px;
+}
+.prise {
+    align-items: center;
+    justify-items: center;
+    padding-top: 95px;
+    display: flex;
+}
+.prise-nomber {
+font-size: 32px;
+line-height: 36px;
+}
+
+.prise-but {
+    margin-left: 20px;
+    font-size: 16px;
+    background: linear-gradient(91.73deg, #846B52 11.39%, rgba(132, 107, 82, 0) 98.54%);
+    border-radius: 30px;
+    width: 260px;
+    height: 60px;
+    border: none;
+    cursor:pointer;
+}
+
+.prise-but:hover {
+    background: linear-gradient(91.73deg, rgba(251, 4, 4, 0.74) 11.39%, rgba(28, 26, 24, 0) 98.54%);
+}
+/*intro*/
+/*btn*/
+.moto {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.btn-moto {
+    border: none;
+    position: absolute;
+    color: black;
+    margin-top: -8px;
+    background: Yellow ;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    z-index: 1;
+}
+
+.btn-moto:hover {
+    background: gold;
+}
+.ferst-btn {
+    position: absolute;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.ferst-btn-activ {
+    position: absolute;
+    background: gray;
+    color: white;
+    width: 275px;
+    height: 30px;
+    margin-top: -5px;
+    padding-left:40px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 0;
+}
+.second-btn{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.second-btn-acti {
+    margin-top: 100px;
+}
+
+.third-btn {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+}
+
+.third-btn-acti {
+    margin-top: 170px;
+    margin-left: 150px;
+}
+/*end btn*/
+.telefon-label {
+    display: none;
+}
+/*slider*/
+/*end slider*/
+/* scooter */
+.scooter {
+    background: url('bg-scuter.png')
+}
+
+.scooter-btn {
+    background: linear-gradient(91.73deg, rgba(251, 4, 4, 0.74) 11.39%, rgba(28, 26, 24, 0) 98.54%);
+}
+
+.scooter-foto {
+    margin-left: 100px;
+}
+/*btn scooter*/
+.scooter-btn-ferst {
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.scooter-btn-second {
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.scooter-btn-third {
+    margin-left: 100px;
+    margin-top: 400px;
+}
+/*end btn scooter*/
+.scooter-btn:hover {
+    background: linear-gradient(91.73deg, #846B52 11.39%, rgba(132, 107, 82, 0) 98.54%);
+}
+/* end scooter */
+/*accessories*/
+.accessories {
+    background: url('accessories-bg.png')
+}
+
+.accessories-btn {
+    background: linear-gradient(91.73deg, #334D42 11.39%, rgba(28, 26, 24, 0) 98.54%);
+}
+/*end accessories*/
+/*foter*/
+.foter {
+    margin: 0;
+    background: linear-gradient(93.01deg, #2D5245 44.86%, rgba(112, 153, 138, 0) 96.59%);
+}
+
+.foter-content {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+.foter-content p {
+    margin-top: 18px;
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+.item-png {
+    display: block;
+    margin: 0 auto;
+}
+/*end foter*/
+@media screen and (max-width:600px) { 
+    .logo {
+        width: 91px;
+    }
+    
+    body{
+        font-size: 10px;
+    }
+    .nav-link {
+        font-size: 11px;
+    }
+    .intro-conteiner {
+        display: block;
+    }
+    .intro-title {
+        font-size: 11px;
+        line-height: 13px;
+        width: 145px;
+        height: 70px;
+        margin: 0 auto;
+        color: white;
+    }
+    .moto {
+        width: 236px;
+    }
+    .intro-foto {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .intro-title-two{
+        display: none;
+    }
+    
+    .prise {
+        display: none;
+    }
+    
+    .btn-moto {
+        width: 16px;
+        height: 16px;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .ferst-btn-activ {
+        width: 183px;
+        height: 15px;
+        font-size: 10px;
+        padding-left: 18px;
+        margin-top: 2px;
+        padding-top: 0;
+    }
+    
+    .third-btn-acti {
+        margin:0;
+    }
+    
+    .telefon-label {
+        display: block;
+    }
+    
+    .telefon-intro-title-two {
+        color: white;
+        font-size: 10px;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 193px;
+    }
+    
+    .telefon-prise {
+        font-size: 20px;
+        color: white;
+        margin-top: 24px;
+        display: flex;
+        align-items: center; 
+        justify-items: center;
+    }
+    
+    .prise-nomber {
+        font-size: 20px;
+    }
+    
+    .prise-but {
+        width:100px;
+        height: 20px;
+        font-size: 10px;
+        color: white;
+        padding: 0;
+    }
+    .scooter-img {
+        width: 236px;
+    }
+    .scooter-btn-ferst {
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .scooter-btn-second {
+        margin-top: 110px;
+        margin-left: 30px;
+    }
+    
+    .scooter-btn-third {
+        margin-top: 200px;
+        margin-left: 110px;
+    }
+    
+    .accessories-img {
+        width: 236px;
+        margin: 0 auto;
+    }
+    
+    .intro-foto {
+        width: 236px;
+    }
+    
+    .item-png {
+        width: 15px;
+    }
+    
+    .foter-content p {
+        font-size: 12px;
+    }
+    .telefon-prise1 {
+        margin-left: 25%;
+    }
+    .intro {
+        background: linear-gradient(to right, #493F35 50%, #A69680 50%);
+    }
+    .scooter {
+        background: linear-gradient(to right, #DB5A5A 50%, #D24848 50%);
+    }
+    .accessories {
+        background: linear-gradient(to right, #334D42 50%, #D8D13C 50%);
+    }
+    .foter-content {
+        display:flow-root;
+        justify-content: space-between;
+    }
+    .items-footer {
+    }
+@media screen and (max-width:950px) { 
+}
